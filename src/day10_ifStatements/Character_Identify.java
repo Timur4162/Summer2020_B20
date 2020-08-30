@@ -2,7 +2,8 @@ package day10_ifStatements;
 
 public class Character_Identify {
     public static void main(String[] args) {
-        char character = '!';
+
+        char character = 'g';
                             // 65 <= character <= 90      ||    97<= character <= 122
         boolean isAlphabetic = (character >= 65 && character >= 90) || (character >= 97 && character <=122);
                     //          uppercase letters       || lowercase letters
